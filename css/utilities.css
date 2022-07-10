@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    font-weight: 500;
+}
+
+.my{
+    text-align: center;
+}
+
+.work{
+    font-size: 14px;
+    padding: 0.8rem 1.5rem;
+    text-transform: uppercase;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 25px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+
+.work:hover{
+    background: rgb(229, 228, 147);
+}
+
+.about{
+    padding: 20% 5%;
+    display: flex;
+}
+
+.left-about{
+    border: 1px solid none;
+    background-color: rgb(106, 167, 190);
+    border-radius: 160px;
+    padding: 5rem 5rem;
+    text-align: center;
+    transition: all 0.3s;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.left-about:hover{
+    border: 1px solid none;
+    background: rgb(187, 187, 187);
+    color: rgb(2, 116, 161);
+
+}
+
+
+.right-about{
+    border: 1px solid none;
+    margin-left: 25rem;
+    font-size: 18px;
+}
+
+.youtube{
+    padding: 8%;
+}
+
+.hg .conta{
+    text-align: center;
+}
+
+.hg{
+    text-align: center;
+    display: flex;
+    padding: 8% 30%;
+}
+
+.iteme{
+    margin-left: 2rem;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.89);
+    background-blend-mode: darken;
+    color: rgb(201, 212, 221);
+}
+
+
+.projects{
+    padding-top: 40px;
+}
+
+.project h1{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.projects a{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(201, 212, 221);
+    transition: all .3s ease;
+}
+
+.projects a:hover{
+    color: rgb(230, 229, 199);
+}
+
+.list{
+    padding: 2vh 4vh;
+    font-size: 18px;
+}
+
+.ms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    padding: 2vh 0vh;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22vh;
+}
+
+.contact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact a img{
+    width: 100%;
+}
+
+.v{
+    padding: 0vh 8vh;
+}
+
+.v a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(71, 76, 76);
+    transition: all .3s ease;
+}
+
+.v a:hover{
+    color: rgb(68, 68, 247);
+}
+

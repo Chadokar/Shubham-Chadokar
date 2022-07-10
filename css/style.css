@@ -1,0 +1,116 @@
+ @import 'utilities.css';
+
+
+
+header{
+    height: 662px;
+    animation-duration:  5s;
+    background-color:#161616; 
+    animation-name: change;
+    clip-path: polygon(0 0,100% 0,100% 100%,80% 85%,0% 100%);
+}
+
+@keyframes change{
+    from{background-color: white;}
+    to{background-color: #161616;}
+}
+
+/* header:hover{
+    background-color: #161616;
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialised;
+}
+
+.name{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 20px;
+    
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+header nav .right a{
+    color: gainsboro;
+    text-decoration: none;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .right a:hover{
+    color: rgb(229, 228, 147);
+}
+
+header nav{
+    padding: 1rem 0;
+}
+
+.Shubham{
+    text-align: center;
+    /* border: 3px solid gray; */
+    padding: 140px 0;
+    color: white;
+}
+
+.intro{
+    /* margin-left: 5%; */
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(229, 228, 147);
+    /* animation-name: into;
+    animation-duration: 7s; */
+}
+
+.one{
+    animation-name: into;
+    animation-duration: 7s;
+}
+
+@keyframes into{
+    0%{color:white;}
+    71.42%{color:#161616;}
+    /* 80%{color: rgb(229, 228, 147);} */
+    100%{color: rgb(229, 228, 147);}
+}
+
+.two{
+    animation-name: tw;
+    animation-duration: 7s;
+}
+@keyframes tw{
+    0%{color: white;}
+    71.42%{color:#161616;}
+    78.0%{color:#161616}
+    100%{color:rgb(229, 228, 147)}
+}
+
+.three{
+    animation-name: th;
+    animation-duration: 7s;
+}
+@keyframes th {
+    0%{color: white;}
+    71.42%{color:#161616;}
+    85%{color:#161616}
+    100%{color:rgb(229, 228, 147)}
+}
+
+.dep{
+    padding-top: 4%;
+    font-size: 20px;
+    font-weight: 50;
+}
+
